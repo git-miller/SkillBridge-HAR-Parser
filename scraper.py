@@ -13,9 +13,9 @@ import csv
 # Save that to the same directory as this script
 
 # Ensure this name matches your HAR file in the directory
-HAR_FILENAME = 'newdata.har'
+HAR_FILENAME = 'example.har'
 # Can be anything
-CSV_FILENAME = 'newdata4.csv'
+CSV_FILENAME = 'example.csv'
 
 # Loads some of the info as JSON
 with open(HAR_FILENAME, 'rb') as file:
