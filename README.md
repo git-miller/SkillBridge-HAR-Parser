@@ -1,0 +1,8 @@
+- Open website: https://skillbridge.osd.mil/locations.htm
+- CTRL + SHIFT + E (Opens dev tool network tab)
+- On the website, click the SEARCH button
+- Look for a fairly large XML file in the list
+- Right click anywhere on that line and "Save All as HAR"
+- Save that to the same directory as this script
+- Modify the filename in the script or change your filename to 'example.har'
+- Run the python parser.py and it should output example.csv (if name wasn't changed)
